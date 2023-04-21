@@ -58,10 +58,27 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "a39d2cfb-52af-4c17-877a-84a7f2ebc320": {
+      "type": "mc-title-2",
+      "blocks": {
+        "7d3c7a49-b9c0-49cc-a6d7-53c6d4e216f4": {
+          "type": "mc-title",
+          "settings": {
+            "text": "LAlalla lalala"
+          }
+        }
+      },
+      "block_order": [
+        "7d3c7a49-b9c0-49cc-a6d7-53c6d4e216f4"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "mc_title",
-    "764117b3-2ee0-4bb6-a6f6-80d11301423e"
+    "764117b3-2ee0-4bb6-a6f6-80d11301423e",
+    "a39d2cfb-52af-4c17-877a-84a7f2ebc320"
   ]
 }
