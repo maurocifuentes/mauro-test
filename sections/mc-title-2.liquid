@@ -1,0 +1,29 @@
+<h1>{{ block[0].settings.text | escape }}</h1>
+
+{% schema %}
+  {
+    "name": "MC Title 2",
+    "tag": "div",
+    "class": "section",
+    "blocks": [
+      {
+        "type": "mc-title",
+        "name": "Title Label",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "default": "lorem ipsum dolor default 2",
+            "label": "Title Label 222"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "MC TITLE 2"
+      }
+    ]
+  }
+{% endschema %}

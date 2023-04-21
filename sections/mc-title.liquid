@@ -1,7 +1,9 @@
-<div></div>
-{%- for block in section.blocks -%}
-  <h1 class="color-{{ section.settings.color_scheme }}">{{ block.settings.text | escape }}</h1>
-{%- endfor -%}
+<div>
+  {%- for block in section.blocks -%}
+    <h1 class="color-{{ section.settings.color_scheme }}">{{ block.settings.text | escape }}</h1>
+  {%- endfor -%}
+</div>
+
 {% schema %}
   {
     "name": "MC Title",
