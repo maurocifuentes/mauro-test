@@ -1,4 +1,7 @@
-<h1>{{ block[0].settings.text | escape }}</h1>
+<div>
+  <h1>{{ block[0].settings.text | escape }}</h1>
+  <p>Esto deberia tener un H1 ffff</p>
+</div>
 
 {% schema %}
   {
@@ -8,14 +11,14 @@
     "blocks": [
       {
         "type": "mc-title",
-        "name": "Title Label",
+        "name": "Block Name",
         "limit": 1,
         "settings": [
           {
             "type": "text",
             "id": "text",
             "default": "lorem ipsum dolor default 2",
-            "label": "Title Label 222"
+            "label": "Label Title"
           }
         ]
       }
@@ -24,6 +27,9 @@
       {
         "name": "MC TITLE 2"
       }
-    ]
+    ],
+    "enabled_on": {
+      "templates": ["index"]
+    }
   }
 {% endschema %}
