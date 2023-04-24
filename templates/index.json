@@ -1,22 +1,5 @@
 {
   "sections": {
-    "mc_title": {
-      "type": "mc-title",
-      "blocks": {
-        "39a7fffc-e667-4541-8252-008c1083b8a1": {
-          "type": "mc-title",
-          "settings": {
-            "text": "TESTING"
-          }
-        }
-      },
-      "block_order": [
-        "39a7fffc-e667-4541-8252-008c1083b8a1"
-      ],
-      "settings": {
-        "color_scheme": "background-1"
-      }
-    },
     "764117b3-2ee0-4bb6-a6f6-80d11301423e": {
       "type": "rich-text",
       "blocks": {
@@ -74,11 +57,17 @@
       ],
       "settings": {
       }
+    },
+    "024b7503-2fc0-45e7-8259-fd4921a6c2e7": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-e73f81b8"
+      }
     }
   },
   "order": [
-    "mc_title",
     "764117b3-2ee0-4bb6-a6f6-80d11301423e",
-    "a39d2cfb-52af-4c17-877a-84a7f2ebc320"
+    "a39d2cfb-52af-4c17-877a-84a7f2ebc320",
+    "024b7503-2fc0-45e7-8259-fd4921a6c2e7"
   ]
 }
