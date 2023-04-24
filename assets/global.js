@@ -1154,4 +1154,4 @@ class ProductRecommendations extends HTMLElement {
 
 customElements.define('product-recommendations', ProductRecommendations);
 
-console.log('INGAMANA HAS STARTED');
+console.log('updated: INGAMANA HAS STARTED');

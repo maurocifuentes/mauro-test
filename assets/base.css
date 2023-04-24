@@ -2442,7 +2442,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   .header__heading-link span {
-    color: green !important;
+    color: rgb(255, 230, 0) !important;
   }
 
   .header--top-center {
