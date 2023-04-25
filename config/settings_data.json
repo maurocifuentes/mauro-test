@@ -139,8 +139,8 @@
       "dynamic-section": {
         "type": "dynamic-section",
         "settings": {
-          "title": "Custom TITLE FROM CMS PAGE 1",
-          "subtitle": "custom subtitle (no hay markup para esto)"
+          "title": "",
+          "subtitle": ""
         }
       }
     },
