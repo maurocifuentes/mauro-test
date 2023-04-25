@@ -146,10 +146,19 @@
               "page_title": "TITLE CMS Page 1",
               "subtitle": "no hay markup para esto"
             }
+          },
+          "34012ebb-d5b3-4cf2-ae42-45ee61069398": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "page-2",
+              "page_title": "TITLE PAGE 2 from CMS",
+              "subtitle": "tampoco hay markup"
+            }
           }
         },
         "block_order": [
-          "1b9e0f11-9732-436b-84bf-882708c8bc9b"
+          "1b9e0f11-9732-436b-84bf-882708c8bc9b",
+          "34012ebb-d5b3-4cf2-ae42-45ee61069398"
         ],
         "settings": {
           "title": ""
