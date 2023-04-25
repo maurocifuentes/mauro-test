@@ -145,10 +145,18 @@
               "page_handle": "page-1",
               "page_title": "Title Page 1 FROM BUILDER"
             }
+          },
+          "c0aeac09-8eb0-41bb-8264-21dfdc8e9abc": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "page-2",
+              "page_title": "Custom page 2 title From CMS"
+            }
           }
         },
         "block_order": [
-          "93b5f5b0-a75b-4c7f-9b44-ab665bca1d65"
+          "93b5f5b0-a75b-4c7f-9b44-ab665bca1d65",
+          "c0aeac09-8eb0-41bb-8264-21dfdc8e9abc"
         ],
         "settings": {
           "title": ""
