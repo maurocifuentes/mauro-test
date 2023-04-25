@@ -138,9 +138,21 @@
       },
       "dynamic-section": {
         "type": "dynamic-section",
+        "blocks": {
+          "1b9e0f11-9732-436b-84bf-882708c8bc9b": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "page-1",
+              "page_title": "TITLE CMS Page 1",
+              "subtitle": "no hay markup para esto"
+            }
+          }
+        },
+        "block_order": [
+          "1b9e0f11-9732-436b-84bf-882708c8bc9b"
+        ],
         "settings": {
-          "title": "",
-          "subtitle": ""
+          "title": ""
         }
       }
     },
