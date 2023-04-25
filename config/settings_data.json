@@ -135,8 +135,29 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "dynamic-section": {
+        "type": "dynamic-section",
+        "blocks": {
+          "93b5f5b0-a75b-4c7f-9b44-ab665bca1d65": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "page-1",
+              "page_title": "Title Page 1"
+            }
+          }
+        },
+        "block_order": [
+          "93b5f5b0-a75b-4c7f-9b44-ab665bca1d65"
+        ],
+        "settings": {
+          "title": ""
+        }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
